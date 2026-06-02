@@ -4,6 +4,21 @@
 
 #### [💾Latest stable release](https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/latest)
 ---
+## v3.138.01
+- NEW: Spanish Language Pack. Auto-generated and refined via automated translation software.
+- Enable it at: Additional Settings > Language (bottom-right corner).
+- NEW Feature: [Log to file]. When enabled, auto saves all console output to log files.
+- [Log to file] is disabled by default. Location: Home Tab, bottom right.
+- NEW Feature: Improved Compatibility Test for HW Video Decoder & Encoder.
+- Waifu2x will now help you configure and enable HW video decoders & encoders directly, speeding up video processing.
+- You can re-run the compatibility test if you want waifu2x to automatically help you enable these options.
+- The Spanish Language Pack has been further refined compared to the BETA version.
+---
+## v3.137.01
+- NEW [RIFE-v4.26-Large] Frame Interpolation Model with Quality Improvements.
+- Feature upgrade: [Keep subtitle] is now updated to [Subtitle & Chapter]
+- Now waifu2x can include both Subtitle and Chapter in the final video.
+---
 ## v3.136.01
 - NEW Model: v1.8 update for [AnimeVideo-Mini] model, with improved denosie and details reconstruction.
 - Improved support for high-DPI displays.
