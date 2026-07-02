@@ -4,6 +4,19 @@
 
 #### [💾获取最新的稳定版](https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/latest)
 ---
+## v3.139.01
+- 全新图片批量超分辨率流水线，性能提升超 300%。（可选 BETA 功能）
+- 在 RTX 5060 笔记本上使用 Waifu2x-NCNN 进行测试：
+- 326 张混合图片的出来时间从 3:50 大幅缩短至仅需 1:10。
+- 全新流水线目前支持所有 NCNN-Vulkan 引擎以及 Anime4K。
+- 图片与 GIF 的信息读取速度更快。
+- 修复：提高了 [替换原文件] 选项的 I/O 稳定性。
+- 修复：解决了在部分电脑上由 MSI Afterburner 和 RTSS 导致的超分辨率引擎崩溃问题。
+- （感谢 @GT500 的反馈及协助测试）
+- 相比 v3.138.18-beta 的变化：
+- 进一步扩展了全新图片超分辨率流水线。
+- 修复了多项错误。
+---
 ## v3.138.01
 - NEW: Spanish Language Pack. Auto-generated and refined via automated translation software.
 - Enable it at: Additional Settings > Language (bottom-right corner).
