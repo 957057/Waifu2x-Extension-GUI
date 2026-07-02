@@ -4,6 +4,19 @@
 
 #### [💾Latest stable release](https://github.com/AaronFeng753/Waifu2x-Extension-GUI/releases/latest)
 ---
+## v3.139.01
+- NEW Image Batch Upscale Pipeline, Over 300% Performance Boost.(Optional BETA Feature)
+- Testing on an RTX 5060 Laptop, using Waifu2x-NCNN:
+- Dropped processing time for 326 mixed pictures from 3:50 down to just 1:10.
+- The NEW Pipeline currently supports all NCNN-Vulkan engines plus Anime4K.
+- Faster info reading for pictures and GIF.
+- Fix: Improved I/O robustness for [Replace original file] option.
+- Fix: Upscaling engine crash caused by MSI Afterburner and RTSS on some PCs.
+- (Thanks to @GT500 for reporting and assisting with testing)
+- Compare to v3.138.18-beta:
+- Further Expansion of the New Image Upscaling Pipeline.
+- Multiple bug fixs.
+---
 ## v3.138.01
 - NEW: Spanish Language Pack. Auto-generated and refined via automated translation software.
 - Enable it at: Additional Settings > Language (bottom-right corner).
